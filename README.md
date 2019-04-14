@@ -1,6 +1,6 @@
 # Blood-Donation
 
-The Ojective of this website : to coordinate between the donor and the patient who needs blood transfusion.<br />
+The Ojective of this Web application: to coordinate between the donor and the patient who needs blood transfusion.<br />
 Our responsibilities are to: Encourage people to donate blood and help each other Provide easy way to find the appropriate blood.<br />
 I used PostgreSQL, JavaScript, Node.js, HTML5 and CSS to build this Web application.<br />
 ### Homepage
