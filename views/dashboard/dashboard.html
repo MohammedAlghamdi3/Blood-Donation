@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <link rel='stylesheet' type='text/css' href='/static/styles/styels3.css'>
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="topnav">
+        &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="/"><img src="https://c.top4top.net/p_10822od581.png" width="195px" height="115px" alt=""></a>
+
+
+    </div>
+
+    <div class="row">
+        <div class="col s12 m3">
+            <div class="card card larg materialize-red.lighten-4 ">
+                <div class="card-content materialize-red-text">
+                    <span class="card-title">Number of Volunteers in both Genders based on ABO blood group system</span>
+                    <!-- <div class="" -->
+                    <canvas id="myChart" width="40" height="40"></canvas>
+                    <table class="striped centered">
+                        <thead>
+                            <tr>
+                                <th>Gander</th>
+                                <th>A</th>
+                                <th>AB</th>
+                                <th>B</th>
+                                <th>O</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Famele</td>
+                                <td>
+                                    <h6 id="bloodFAs"> {{bloodFAs}} </h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodFABs"> {{bloodFABs}}</h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodFBs"> {{bloodFBs}}</h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodFOs"> {{bloodFOs}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Mele</td>
+                                <td>
+                                    <h6 id="bloodMAs"> {{bloodMAs}}</h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodMABs"> {{bloodMABs}}</h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodMBs"> {{bloodMBs}}</h6>
+                                </td>
+                                <td>
+                                    <h6 id="bloodMOs"> {{bloodMOs}}</h6>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card larg materialize-red.lighten-4">
+                <div class="card-content materialize-red-text">
+                    <span class="card-title">Number of Volunteers in each city</span>
+                    <canvas id="circle" width="40" height="40"></canvas>
+
+
+                    <table class="striped centered">
+                        <thead>
+                            <tr>
+                                <th>City</th>
+                                <th>Number</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>RIYADH</td>
+                                <td>
+                                    <h6 id="riyadh"> {{bloodrio}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MAKKAH</td>
+                                <td>
+                                    <h6 id="makkah"> {{bloodMak}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>DAMMAM</td>
+                                <td>
+                                    <h6 id="Dammam"> {{bloodDam}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MADINAH</td>
+                                <td>
+                                    <h6 id="Medina"> {{bloodMed}}</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col s12 m3">
+            <div class="card larg materialize-red.lighten-4">
+                <div class="card-content materialize-red-text">
+                    <span class="card-title">Number of Volunteers per month in 2018</span>
+                    <canvas id="line" width="40" height="40"></canvas>
+                    <table class="striped centered">
+                        <thead>
+                            <tr>
+                                <th>Month</th>
+                                <th>Number of users</th>
+                                <th>Month</th>
+                                <th>Number of users</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td>Januery</td>
+                                <td>
+                                    <h6 id="bloodDJAN"> {{bloodDJAN}}</h6>
+                                </td>
+                                <td>July</td>
+                                <td>
+                                    <h6 id="bloodDJULY"> {{bloodDJULY}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Februery</td>
+                                <td>
+                                    <h6 id="bloodDFE"> {{bloodDFE}}</h6>
+                                </td>
+                                <td>Auguest</td>
+                                <td>
+                                    <h6 id="bloodDAUG"> {{bloodDAUG}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>March</td>
+                                <td>
+                                    <h6 id="bloodDMAR"> {{bloodDMAR}}</h6>
+                                </td>
+                                <td>September</td>
+                                <td>
+                                    <h6 id="bloodDSEP"> {{bloodDSEP}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>April</td>
+                                <td>
+                                    <h6 id="bloodDAPR"> {{bloodDAPR}}</h6>
+                                </td>
+                                <td>October</td>
+                                <td>
+                                    <h6 id="bloodDOCT"> {{bloodDOCT}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>May</td>
+                                <td>
+                                    <h6 id="bloodDMAY"> {{bloodDMAY}}</h6>
+                                </td>
+                                <td>November</td>
+                                <td>
+                                    <h6 id="bloodDNOV"> {{bloodDNOV}}</h6>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>JUN</td>
+                                <td>
+                                    <h6 id="bloodDJUN"> {{bloodDJUN}}</h6>
+                                </td>
+                                <td>December</td>
+                                <td>
+                                    <h6 id="bloodDDEC"> {{bloodDDEC}}</h6>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="col s12 m3">
+            <div class="card larg materialize-red.lighten-4" id="users">
+                <div class="card-content materialize-red-text">
+                    <span class="card-title">Total Number of Volunteers</span>
+                    <h1>{{bloodNum}}</h1>
+                    <a href="/blood"> All Users data</a>
+
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <script src="/static/script/main.js"></script>
+</body>
+
+</html>
