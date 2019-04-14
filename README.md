@@ -2,16 +2,15 @@
 
 The Ojective of this website : to coordinate between the donor and the patient who needs blood transfusion
 Our responsibilities are to: Encourage people to donate blood and help each other Provide easy way to find the appropriate blood
-I used PostgreSQL,JavaScript,Node.js,HTML5 and CSS 
-
+I used PostgreSQL,JavaScript,Node.js,HTML5 and CSS to build this Web application.
 ### Homepage
 ![](./image_website/1.jpg)
 
 
 ### The Dashboard contains the following: 
  1-Number of Volunteers in both genders based on ABO blood group system.<br />
- 2-Number of Volunteers in each city
- 3-Number of Volunteers per month in 2018
+ 2-Number of Volunteers in each city.<br />
+ 3-Number of Volunteers per month in 2018.<br />
  4-Total Number of Volunteers 
 ![](./image_website/2.jpg)
 
