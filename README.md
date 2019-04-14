@@ -9,7 +9,7 @@ I used PostgreSQL,JavaScript,Node.js,HTML5 and CSS
 
 
 ### The Dashboard contains the following: 
- 1-Number of Volunteers in both genders based on ABO blood group system.
+ 1-Number of Volunteers in both genders based on ABO blood group system.<br />
  2-Number of Volunteers in each city
  3-Number of Volunteers per month in 2018
  4-Total Number of Volunteers 
