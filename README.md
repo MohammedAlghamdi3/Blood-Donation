@@ -5,7 +5,7 @@ The Ojective of this website : to coordinate between the donor and the patient w
 Our responsibilities are to: Encourage people to donate blood and help each other Provide easy way to find the appropriate blood
 
 *Homepage
-https://mrkzgulfup.com/uploads/155521957464691.jpg
+![](./image_website/1.jpg)
 
 
 * The Dashboard contains the following : 
