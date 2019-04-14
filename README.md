@@ -27,4 +27,4 @@ https://mrkzgulfup.com/uploads/155521957486254.jpg
 https://mrkzgulfup.com/uploads/155521957493185.jpg
 
 * You can update your registration data
-https://mrkzgulfup.com/uploads/15552195751168.jpg
+[img]https://mrkzgulfup.com/uploads/15552195751168.jpg[/img]
