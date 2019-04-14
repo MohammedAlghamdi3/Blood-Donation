@@ -17,7 +17,7 @@ I used PostgreSQL, JavaScript, Node.js, HTML5 and CSS to build this Web applicat
 ###  new donor Registration
 ![](./image_website/3.jpg)
 
- ### Search for blood donor according to blood types and citys
+ ### Search for blood donor according to blood types and cities
 ![](./image_website/4.jpg)
 
 ### Search results for donors
