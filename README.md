@@ -14,10 +14,10 @@ I used PostgreSQL, JavaScript, Node.js, HTML5 and CSS to build this Web applicat
  4-Total Number of Volunteers.<br />
 ![](./image_website/2.jpg)
 
-### Registration of a new donor
+###  new donor Registration
 ![](./image_website/3.jpg)
 
- ### Search for blood donor according to type of blood type and city
+ ### Search for blood donor according to blood types and citys
 ![](./image_website/4.jpg)
 
 ### Search results for donors
