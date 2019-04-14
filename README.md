@@ -11,7 +11,7 @@ I used PostgreSQL, JavaScript, Node.js, HTML5 and CSS to build this Web applicat
  1-Number of Volunteers in both genders based on ABO blood group system.<br />
  2-Number of Volunteers in each city.<br />
  3-Number of Volunteers per month in 2018.<br />
- 4-Total Number of Volunteers 
+ 4-Total Number of Volunteers.<br />
 ![](./image_website/2.jpg)
 
 ### Registration of a new donor
