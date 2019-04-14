@@ -7,7 +7,7 @@ I used PostgreSQL, JavaScript, Node.js, HTML5 and CSS to build this Web applicat
 ![](./image_website/1.jpg)
 
 
-### The Dashboard contains the following: 
+### The Dashboard consist of :
  1-Number of Volunteers in both genders based on ABO blood group system.<br />
  2-Number of Volunteers in each city.<br />
  3-Number of Volunteers per month in 2018.<br />
